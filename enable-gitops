@@ -1,4 +1,2 @@
 
-
- 
-kubectl label ns build-managed-by-gitops argocd.argoproj.io/managed-by=openshift-gitops
+kubectl label ns pipelines-by-gitops argocd.argoproj.io/managed-by=openshift-gitops
