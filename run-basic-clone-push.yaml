@@ -7,11 +7,11 @@ spec:
     - name: git-url
       value: 'https://github.com/jduimovich/a-simple-app'
     - name: output-image
-      value: demo
+      value: image-registry.openshift-image-registry.svc:5000/build-managed-by-gitops/a-simple-app
   pipelineRef:
     name: as-default-pipeline
   workspaces:
     - name: workspace
       persistentVolumeClaim:
-        claimName: as-git-default
+        claimName: as-default-workspace 
  
