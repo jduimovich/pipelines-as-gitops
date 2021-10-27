@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata: 
-  name: as-default-pipeline-2 
+  name: as-default-pipeline-3 
 spec:
   params:
     - name: git-url
